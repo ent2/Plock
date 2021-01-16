@@ -1,0 +1,9 @@
+title: Fancy Project
+
+code:
+  - - when: start
+    - repeat:
+      - 10
+      - - move: [a, 10]
+  - - when: click
+    - say: hello!
